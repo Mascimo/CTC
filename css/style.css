@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin: 0px;
+}
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* retirar */
+#menu a:hover{
+  color: red;
+}
+
+#header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    color: white;
+    display: none;
+}
+
+
+#menu.active{
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+
+
+.information{
+ display: flex;
+}
+
+.informationDecoration{
+    width: 50%;
+    height: 500px;
+    background-image: url(../icon/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.informationContainer01{
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+
+.informationTitle{
+    font-size: 40px;
+}
+
+.informationText{
+    font-size: 18px;
+}
+
+.informationContainer02{
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/horoscopooracaocasaisreconciliargetty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.formulario01{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    position: relative;
+    bottom: 60px;
+}
+
+.formulario01Conten{
+    display: flex;
+    align-items: center;
+    
+    width: 1000px;
+    background-color: black;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.formularioTitle{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.formularioTitle h2{
+    width: 300px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.formulario01Form{
+    width: 560px;
+}
+
+.formulario01Style{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: 0;
+
+    font-size: 18px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 12px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.formulario02Email{
+    width: 515px;
+}
+
+.formulario01Button{
+    width: 515px;
+    color: white;
+    background-color: rgb(247, 145, 29);;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.formulario01Button:hover{
+    background-color: rgb(194, 114, 24);
+}
+
+
+
+.procurar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procurarContent01{
+    margin-bottom: 40px;
+}
+
+.procurarContent02{
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+}
+
+.procurarContent02Div{
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px 0px 10px #666;
+}
+
+.procurarContent02Div:hover{
+    box-shadow: 0px 0px 20px #666;
+}
+
+
+
+.bannerTratamento{
+margin-top: 100px;
+color: white;
+}
+
+.bannerTratamentoContainer{
+    display: grid;
+    grid-template: auto / 1fr 1.2fr 1fr;
+    background-color: antiquewhite;
+}
+
+.bannerTratamentoContent{
+    height: 500px;
+}
+
+.bannerTratamentoContent.child01{
+    background-image: url(../img/Copy\ of\ Pente\ de\ alta\ frequencia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerTratamentoContent.child02{
+    height: 470px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(44, 44, 44);
+}
+
+.bannerTratamentoContentButton{
+    display: inline-block;
+    background-color: rgb(247, 145, 29);
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bannerTratamentoContentButton:hover{
+    background-color: rgb(194, 114, 24);
+}
+
+.bannerTratamentoContent.child03{
+    background-image: url(../img/Copy\ of\ Ozonioterapia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tratamentoTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gg1{
+    display: flex;
+    justify-content: center;
+}
+
+.gg2{
+    /* display: flex; */
+    width: 1020px;
+    /* width: 65%; */
+}
+
+.ppp{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 300px;
+    height: 450px;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #666;
+    color: #000000;
+
+    margin: 15px;
+
+
+
+}
+
+.ppp:hover{
+    box-shadow: 0px 0px 20px #666;
+}
+
+
+.ppp2{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ppp2:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+.clinico{
+display: flex;
+flex-direction: column;
+width: 250px;
+align-items: center;
+
+margin-left: 50px;
+margin-top: 50px;
+}
+
+.clinicoImg{}
+
+.clinicoContente{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    width: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    bottom: 90px;
+    box-shadow: 0px 0px 10px #666;
+}
+
+.clinicoContente:hover{
+    box-shadow: 0px 0px 20px #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.unidades{
+    display: flex;
+    margin-top: 200px;
+}
+
+.unidadesImg{
+    width: 50%;
+    /* height: 500px; */
+    background-image: url(../img/Copy\ of\ Nossa\ clinica01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.unidadesContent{
+    width: 50%;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.unidadesContent h3{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.unidadesContent p {
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 40px;
+    margin-top: 7px;
+}
+
+
+
+.formulario02{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.formulario02Img{
+    position: absolute;
+    right: 60%;
+}
+
+.formulario02Contente01{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.formulario02Contente01Div01{
+    width: 50%;
+}
+
+.formulario02Contente01Div02{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+}
+
+.formulario02Contente01Div02 h2{
+    width: 80%;
+}
+
+.formulario02Contente02{
+    display: flex;
+
+    width: 100%;
+    height: 200px;
+    background-color: rgb(221, 220, 220);
+}
+
+.formulario02Contente02Div01{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(221, 220, 220);
+} 
+
+.formulario02Contente02Div02{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+}
+
+
+footer{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(44, 44, 44);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 114, 24);
+    height: 90px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px){
+
+    .formulario01Conten{
+        width: 700px;
+        padding: 20px;
+        padding-top: 70px;
+    }
+
+    .formularioTitle{
+        width: 250px;
+    }
+    
+    .formularioTitle h2{
+        width: 230px;
+        font-size: 20px;
+    }
+
+    .formulario01Form{
+        width: 450px;
+    }
+    
+    .formulario01Style{
+        padding: 10px;
+        width: 210px;
+    }
+    
+    .formulario02Email{
+        width: 435px;
+    }
+    
+    .formulario01Button{
+        width: 435px;
+        padding: 7px;
+    }
+
+
+    .bannerTratamentoContent{
+        height: 600px;
+    }
+
+    .bannerTratamentoContent.child02{
+        height: 570px;
+    }
+
+
+    .procurarContent02{
+        grid-template: auto auto / auto auto;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px ;
+    }
+    
+    .procurarContent02Div{
+        margin: 0px;
+        width: 320px;
+    }
+
+
+
+
+
+    .gg2{
+        width: 670px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 980px){
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        /* font-size: 1rem; */
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    #hamburger {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #hamburger.active{
+        border-top-color: transparent;
+    }
+
+    #hamburger.active::before{
+        transform: rotate(135deg);
+    }
+
+    #hamburger.active::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 70px;
+        right: 0px;
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        background-color: #e7e7e7;
+    }
+
+    #menu a {
+        padding: 1rem;
+    }
+
+    
+    .informationContainer01{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .bannerTratamentoContent.child02{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .unidadesContent{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .formulario02Contente02Div01{
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .information{
+        flex-direction: column;
+    }
+
+    .informationDecoration{
+        width: 100%;
+    }
+
+    .informationContainer02{
+        width: 100%;
+        background-size: 100%;
+    }
+
+
+    .formulario01{
+        bottom: 120px;
+    } 
+
+
+
+    .formulario01Conten{
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        padding-top: 70px;
+    }
+
+    .formularioTitle{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .formulario01Form{
+        width: 100%;
+    }
+    
+    .formulario01Style{
+        width: 49%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .formulario02Email{
+        width: 99%;
+    }
+    
+    .formulario01Button{
+        width: 98%;
+    }
+
+    .procurarContent01Title{
+        font-size: 20px;
+    }
+
+    .procurarContent02{
+        grid-template: auto auto auto auto / auto;
+    }
+
+    .procurarContent02Div{
+        width: 280px;
+        padding: 10px;
+    }
+
+
+    .bannerTratamentoContainer{
+        display: grid;
+        grid-template: auto auto auto / auto;
+    }
+    
+    .bannerTratamentoContent.child01{
+        height: 300px;
+    }
+
+    .bannerTratamentoContent.child02{
+        height: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+
+    .bannerTratamentoContent.child03{
+        height: 300px;
+    }
+
+
+    .unidades{
+        flex-direction: column;
+    }
+
+    .unidadesImg{
+        width: 100%;
+        height: 500px;
+    }
+
+    .unidadesContent{
+        width: 100%;
+        padding-left: 50px;
+    }
+
+
+    .formulario02{
+        background-color: rgb(221, 220, 220);
+    }
+
+    .formulario02Img{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulario02Contente01{
+        flex-direction: column;
+    }
+
+    .formulario02Contente01Div01{
+        width: 100%;
+    }
+
+    .formulario02Contente01Div02{
+        width: 100%;
+        padding: 20px;    
+        box-sizing: border-box;
+    }
+
+    .formulario02Contente02{
+        flex-direction: column;
+    }
+
+
+    .formulario02Contente02Div01{
+        display: none;
+    }
+
+
+    .gg2{
+        width: 320px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px){
+
+    .informationTitle{
+        font-size: 30px;
+    }
+
+    .formulario01{
+        bottom: 300px;
+    } 
+
+    .procurar{
+        margin-top: -200px;
+     }
+
+    .unidadesImg{
+        height: 300px;
+    }
+
+    .unidadesContent{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .formulario01Style{
+        width: 100%;
+    }
+    .formulario01Button{
+        width: 100%;
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+}
