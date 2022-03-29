@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 html{
     font-family: 'Montserrat', sans-serif;
 }
@@ -154,7 +155,7 @@ body, ul{
 .formulario01Button{
     width: 515px;
     color: white;
-    background-color: rgb(247, 145, 29);;
+    background-color: rgb(247, 145, 29);
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
@@ -272,18 +273,22 @@ color: white;
     margin-bottom: 30px;
 }
 
-.gg1{
+.carousel{
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.carouselDiv{
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+
+.carouselDivImg{
     display: flex;
     justify-content: center;
 }
 
-.gg2{
-    /* display: flex; */
-    width: 1020px;
-    /* width: 65%; */
-}
-
-.ppp{
+.carouselContente{
 
     display: flex;
     flex-direction: column;
@@ -297,18 +302,18 @@ color: white;
     box-shadow: 0px 0px 10px #666;
     color: #000000;
 
-    margin: 15px;
-
+    margin: 15px;   
 
 
 }
 
-.ppp:hover{
+.carouselContente:hover{
     box-shadow: 0px 0px 20px #666;
 }
 
 
-.ppp2{
+
+.carouselButton{
     display: inline-block;
     color: white;
     background-color: black;
@@ -321,7 +326,7 @@ color: white;
     font-weight: bold;
 }
 
-.ppp2:hover{
+.carouselButton:hover{
     background-color: red;
 }
 
@@ -331,32 +336,49 @@ color: white;
 
 
 
+.carousel03{
+    width: 1010px;
+    margin: 0 auto;
+}
+
+
 
 
 .clinico{
 display: flex;
 flex-direction: column;
-width: 250px;
-align-items: center;
+width: 270px;
 
-margin-left: 50px;
-margin-top: 50px;
+align-items: center;
+/* justify-content: center; */
+/* text-align: center; */
+margin: 15px;
 }
 
-.clinicoImg{}
+.clinicoImg{
+    /* width: 200px; */
+    /* height: 400px; */
+    
+}
 
 .clinicoContente{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    text-align: center;
-    width: 220px;
-    padding: 10px;
+    
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+
     box-sizing: border-box;
-    background-color: white;
+    text-align: center;
+    
     position: relative;
-    bottom: 90px;
+    bottom: 140px;
+    left: 25px;
+
+    background-color: white;
     box-shadow: 0px 0px 10px #666;
+    
 }
 
 .clinicoContente:hover{
@@ -555,20 +577,16 @@ footer{
         width: 320px;
     }
 
+}
 
-
-
-
-    .gg2{
-        width: 670px;
+@media screen and (max-width: 1100px){
+    .carousel{
+        width: 660px;
     }
 
-
-
-
-
-
-
+    .carousel03{
+        width: 660px;
+    }
 
 }
 
@@ -791,9 +809,38 @@ footer{
     }
 
 
-    .gg2{
-        width: 320px;
+   
+
+
+
+
+
+    .carousel{
+        width: 300px;
     }
+
+    .carouselContente{
+        width: 260px;
+        
+    }
+
+    .carouselImg{
+        width: 200px    ;
+    }
+   
+
+
+
+
+
+
+    .carousel03{
+        width: 300px;
+    }
+
+
+
+
 
 
 
@@ -811,11 +858,59 @@ footer{
 
     .procurar{
         margin-top: -200px;
-     }
+    }
 
     .unidadesImg{
         height: 300px;
     }
+
+
+    .carousel{
+        width: 200px;
+    }
+
+    .carouselContente{
+        width: 180px;
+        height: 450px;
+        margin: 10px;   
+    }
+
+    .carouselImg{
+        width: 160px;
+    }
+
+
+
+
+
+    .carousel03{
+        width: 200px;
+    }
+
+    .clinicoImg{
+        width: 200px;
+    }
+
+    .clinicoContente{
+        
+        width: 180px;
+        height: 550px;
+        padding: 10px;
+    
+        
+        position: relative;
+        bottom: 100px;
+        left: 10px;
+    
+        
+    }
+
+
+
+
+
+
+
 
     .unidadesContent{
         padding-left: 20px;
@@ -832,5 +927,6 @@ footer{
     footer{
         padding: 20px;
     }
+
 
 }

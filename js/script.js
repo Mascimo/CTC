@@ -1,12 +1,70 @@
-$(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
+
+$('.carousel').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+            }
+        },
+    ]
 });
+
+
+
+
+
+
+
+
+
+
+$('.carousel03').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+            }
+        },
+    ]
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -20,9 +78,9 @@ menuMobile.addEventListener('touchstart', activeMenu);
 
 
 function activeMenu(event) {
-    
+
     if (event.type === "touchstart") event.preventDefault();
-    
+
     const menu = document.getElementById("menu");
     menu.classList.toggle("active");
 
@@ -32,9 +90,9 @@ function activeMenu(event) {
 
     const active = hamburger.classList.contains('active');
     event.currentTarget.setAttribute("aria-expanded", active);
-    if(active) {
+    if (active) {
         event.currentTarget.setAttribute("aria-label", "Fechar Menu")
-    } else{
+    } else {
         event.currentTarget.setAttribute("aria-label", "Abrir Menu")
     }
 }
