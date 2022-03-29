@@ -18,12 +18,12 @@ body, ul{
 #menu a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* retirar */
 #menu a:hover{
-  color: red;
+  color: rgb(194, 114, 24);
 }
 
 #header{
@@ -82,6 +82,7 @@ body, ul{
 
 .informationTitle{
     font-size: 40px;
+    font-weight: 900;
 }
 
 .informationText{
@@ -216,6 +217,11 @@ color: white;
     height: 500px;
 }
 
+.bannerTratamentoContent h2{
+    font-size: 30px;
+    font-weight:900;
+}
+
 .bannerTratamentoContent.child01{
     background-image: url(../img/Copy\ of\ Pente\ de\ alta\ frequencia.jpg);
     background-repeat: no-repeat;
@@ -271,9 +277,10 @@ color: white;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    font-weight: 900;
 }
 
-.carousel{
+.carousel, .carousel03{
     width: 1010px;
     margin: 0 auto;
 }
@@ -327,7 +334,8 @@ color: white;
 }
 
 .carouselButton:hover{
-    background-color: red;
+    background-color: rgb(247, 145, 29);
+    
 }
 
 
@@ -336,13 +344,10 @@ color: white;
 
 
 
-.carousel03{
-    width: 1010px;
-    margin: 0 auto;
-}
 
 
 
+/* carousel03 */
 
 .clinico{
 display: flex;
@@ -424,6 +429,7 @@ margin: 15px;
 .unidadesContent h3{
     font-size: 18px;
     margin: 0px;
+    font-weight:900;
 }
 
 .unidadesContent p {
@@ -580,14 +586,9 @@ footer{
 }
 
 @media screen and (max-width: 1100px){
-    .carousel{
+    .carousel, .carousel03{
         width: 660px;
     }
-
-    .carousel03{
-        width: 660px;
-    }
-
 }
 
 @media screen and (max-width: 980px){
@@ -815,7 +816,7 @@ footer{
 
 
 
-    .carousel{
+    .carousel, .carousel03{
         width: 300px;
     }
 
@@ -828,16 +829,6 @@ footer{
         width: 200px    ;
     }
    
-
-
-
-
-
-
-    .carousel03{
-        width: 300px;
-    }
-
 
 
 
@@ -894,15 +885,13 @@ footer{
     .clinicoContente{
         
         width: 180px;
-        height: 550px;
+        /* height: 550px; */
+        height: auto;
         padding: 10px;
     
-        
         position: relative;
         bottom: 100px;
         left: 10px;
-    
-        
     }
 
 
