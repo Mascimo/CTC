@@ -15,6 +15,14 @@ body, ul{
     box-sizing: border-box;
 }
 
+.pageTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
 #menu a{
     text-decoration: none;
     color: white;
@@ -272,13 +280,7 @@ color: white;
 
 
 
-.tratamentoTitle{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-weight: 900;
-}
+
 
 .carousel, .carousel03{
     width: 1010px;
@@ -811,7 +813,7 @@ footer{
 
 
    
-
+    
 
 
 
@@ -822,7 +824,10 @@ footer{
 
     .carouselContente{
         width: 260px;
-        
+    }
+
+    .carouselContente:hover{
+        box-shadow: 0px 0px 10px #666;
     }
 
     .carouselImg{
@@ -831,6 +836,12 @@ footer{
    
 
 
+
+    
+
+    .clinicoContente:hover{
+        box-shadow: 0px 0px 10px #666;
+    }
 
 
 
@@ -849,6 +860,10 @@ footer{
 
     .procurar{
         margin-top: -200px;
+    }
+
+    .pageTitle01{
+        font-size: 15px;
     }
 
     .unidadesImg{
@@ -896,7 +911,7 @@ footer{
 
 
 
-
+   
 
 
 
