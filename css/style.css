@@ -496,14 +496,16 @@ margin: 15px;
     background-color: rgb(44, 44, 44);
     
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 50px;
 }
 
 .unidadesContent h3{
     font-size: 18px;
-    margin: 0px;
     font-weight:900;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 .unidadesContent p {
