@@ -972,27 +972,6 @@ footer{
 
 
 
-
-
-    /* .carousel{
-        width: 200px;
-    }
-
-    .carouselContente{
-        width: 180px;
-        height: 450px;
-        margin: 10px;   
-    }
-
-    .carouselImg{
-        width: 160px;
-    } */
-
-
-
-
-
-
     .carousel{
         width: 265px;
         padding: 0px;
@@ -1003,8 +982,9 @@ footer{
         height: 450px;
         margin: 10px; 
         box-sizing: border-box;
+        padding-top: 10px;
 
-        padding-top: 10px ;
+        box-shadow: 0px 0px 7px #666;
     
     }
 
@@ -1013,74 +993,39 @@ footer{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .carouselContente{
-
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        
-        width: 300px;
-        height: 450px;
-        
-        padding: 20px;
-        box-sizing: border-box;
-        box-shadow: 0px 0px 10px #666;
-        color: #000000;
-    
-        margin: 15px;   
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .carousel03{
-        width: 200px;
+        width: 265px;
+        padding: 0px;
     }
 
     .clinicoImg{
-        width: 200px;
+        width: 265px;
     }
 
     .clinicoContente{
         
-        width: 180px;
-        /* height: 550px; */
+        width: 245px;
         height: auto;
         padding: 10px;
+        box-sizing: border-box;
     
         position: relative;
         bottom: 100px;
         left: 10px;
+        box-shadow: 0px 0px 7px #666;
     }
 
 
 
-   
+
+
+
+
+
+
+
+
+
 
 
 
