@@ -971,7 +971,10 @@ footer{
     }
 
 
-    .carousel{
+
+
+
+    /* .carousel{
         width: 200px;
     }
 
@@ -983,7 +986,73 @@ footer{
 
     .carouselImg{
         width: 160px;
+    } */
+
+
+
+
+
+
+    .carousel{
+        width: 265px;
+        padding: 0px;
     }
+
+    .carouselContente{
+        width: 250px;
+        height: 450px;
+        margin: 10px; 
+        box-sizing: border-box;
+
+        padding-top: 10px ;
+    
+    }
+
+    .carouselImg{
+        width: 230px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .carouselContente{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        width: 300px;
+        height: 450px;
+        
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px #666;
+        color: #000000;
+    
+        margin: 15px;   
+    } */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
