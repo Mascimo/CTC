@@ -23,13 +23,6 @@ $('.carousel').slick({
 
 
 
-
-
-
-
-
-
-
 $('.carousel03').slick({
     infinite: true,
     slidesToShow: 3,
@@ -51,6 +44,18 @@ $('.carousel03').slick({
         },
     ]
 });
+
+
+
+
+
+
+
+$('.commentsConteiner').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
 
 
 

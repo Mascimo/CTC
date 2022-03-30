@@ -66,13 +66,32 @@
 
 
 .slick-prev:before {
-  color: orange !important;
+  color: #292929 !important;
   background-color: #ffffff;
 }
 .slick-next:before {
-  color: orange !important;
+  color: #292929 !important;
   background-color: #ffffff;
 }
+
+
+
+
+
+
+
+.commentsConteiner .slick-prev:before{
+    color: white !important;
+    background-color: #292929;
+}
+
+.commentsConteiner .slick-next:before{
+    color: white !important;
+    background-color: #292929;
+  }
+
+
+
 
 
 

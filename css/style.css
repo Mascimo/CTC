@@ -312,15 +312,11 @@ color: white;
     color: #000000;
 
     margin: 15px;   
-
-
 }
 
 .carouselContente:hover{
     box-shadow: 0px 0px 20px #666;
 }
-
-
 
 .carouselButton{
     display: inline-block;
@@ -336,13 +332,80 @@ color: white;
 }
 
 .carouselButton:hover{
-    background-color: rgb(247, 145, 29);
-    
+    background-color: rgb(247, 145, 29);    
+
 }
 
 
 
 
+
+
+/* DEPOIMENTOS */
+
+.divTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+} 
+
+.divTitleP01{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.divTitleP02{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.comments{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    background-image: url(../icon/Depoimentos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.commentsConteiner{
+    padding: 20px;
+    width: 60%;
+}
+
+.commentsContent{
+    display: flex;
+    text-align: center;
+} 
+
+.commentsContentImg{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .commentsContentText{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    align-items: center;
+    text-align: center;
+} */
 
 
 
@@ -498,6 +561,36 @@ margin: 15px;
     width: 50%;
     height: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
@@ -841,6 +934,13 @@ footer{
 
     .clinicoContente:hover{
         box-shadow: 0px 0px 10px #666;
+    }
+
+
+
+    .commentsConteiner{
+        padding: 20px;
+        width: 80%;
     }
 
 
