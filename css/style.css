@@ -74,22 +74,25 @@ body, ul{
 }
 
 .informationDecoration{
+    display: flex;
     width: 50%;
     height: 500px;
     background-image: url(../icon/background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    justify-content: center;
+    
 }
 
 .informationContainer01{
-    padding-top: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
+    width: 450px;
+    padding-top: 60px;
     color: white;
 }
 
 .informationTitle{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
 }
 
@@ -180,6 +183,22 @@ body, ul{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .procurar{
     display: flex;
     flex-direction: column;
@@ -187,23 +206,70 @@ body, ul{
     margin-top: -20px
 }
 
-.procurarContent02{
-    display: grid;
-    grid-template: auto / auto auto auto auto;
+
+
+
+
+.procurarCarousel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.procurarContent02Div{
-    width: 280px;
-    margin: 10px;
-    padding: 20px;
+
+.procurarContent{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 1150px;    
+}
+
+.procurarConteiner{
+}
+
+.procurarContentDiv{
+    /* width: 280px; */
+
+    width: 250px;
+    height: 220px;
+
+    margin: 15px;
+    
+    padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    
     box-shadow: 0px 0px 10px #666;
 }
 
-.procurarContent02Div:hover{
+.procurarContentDiv:hover{
     box-shadow: 0px 0px 20px #666;
 }
+
+.procurarContentDiv h3{
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -382,8 +448,8 @@ color: white;
     background-size: cover;
     color: white;
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -658,7 +724,13 @@ footer{
         padding: 10px;
         width: 210px;
     }
+
+
+    .procurarContent{
+        width: 850px;    
+    }
     
+
     .formulario02Email{
         width: 435px;
     }
@@ -675,19 +747,6 @@ footer{
     .bannerTratamentoContent.child02{
         height: 600px;
     }
-
-
-    .procurarContent02{
-        grid-template: auto auto / auto auto;
-        grid-row-gap: 50px;
-        grid-column-gap: 50px ;
-    }
-    
-    .procurarContent02Div{
-        margin: 0px;
-        width: 320px;
-    }
-
 }
 
 @media screen and (max-width: 1100px){
@@ -756,10 +815,17 @@ footer{
         padding: 1rem;
     }
 
-    
+
     .informationContainer01{
-        padding-left: 40px;
-        padding-right: 40px;
+        width: 90%;
+    }
+    
+    .informationTitle{
+        font-size: 35px;
+    }
+
+    .procurarContent{
+        width: 550px;    
     }
 
     .bannerTratamentoContent.child02{
@@ -776,7 +842,6 @@ footer{
     .formulario02Contente02Div01{
         width: 45%;
     }
-
 }
 
 @media screen and (max-width: 768px){
@@ -789,11 +854,18 @@ footer{
         width: 100%;
     }
 
+    .informationContainer01{
+        width: 450px;
+    }
+    
+    .informationTitle{
+        font-size: 45px;
+    }
+
     .informationContainer02{
         width: 100%;
         background-size: 100%;
     }
-
 
     .formulario01{
         bottom: 120px;
@@ -832,16 +904,6 @@ footer{
     .procurar{
         margin-top: -100px;
     }
-
-    .procurarContent02{
-        grid-template: auto auto auto auto / auto;
-    }
-
-    .procurarContent02Div{
-        width: 280px;
-        padding: 10px;
-    }
-
 
     .bannerTratamentoContainer{
         display: grid;
@@ -941,11 +1003,36 @@ footer{
     }
 }
 
+@media screen and (max-width: 600px){
+    .procurarContent{
+        width: 270px;    
+    }
+
+    .procurarContentDiv{
+        width: 240px;
+    }
+
+    .procurarContentDiv:hover{
+        box-shadow: 0px 0px 10px #666;
+    }
+}
+
 @media screen and (max-width: 480px){
 
-    .informationTitle{
-        font-size: 30px;
+    .informationDecoration{
+        height: 450px;
+        align-items: center; 
     }
+
+    .informationContainer01{
+        width: 90%;
+        padding-top: 0px;
+    }
+    
+    .informationTitle{
+        font-size: 35px;
+    }
+
 
     .formulario01{
         bottom: 300px;
