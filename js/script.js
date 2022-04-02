@@ -28,8 +28,7 @@ $('.procurarContent').slick({
 });
 
 
-
-
+// REDUZIR
 
 $('.carousel').slick({
     infinite: true,
@@ -83,6 +82,7 @@ $('.carousel03').slick({
 
 
 
+
 $('.commentsConteiner').slick({
     infinite: true,
     slidesToShow: 1,
@@ -90,6 +90,23 @@ $('.commentsConteiner').slick({
   });
 
 
+
+
+
+  $('.comparisonCarousel').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+    ]
+});
 
 
 

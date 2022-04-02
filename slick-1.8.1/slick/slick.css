@@ -80,12 +80,12 @@
 
 
 
-.commentsConteiner .slick-prev:before{
+.commentsConteiner .slick-prev:before, .comparisonCarousel .slick-prev:before{
     color: white !important;
     background-color: #292929;
 }
 
-.commentsConteiner .slick-next:before{
+.commentsConteiner .slick-next:before, .comparisonCarousel .slick-next:before{
     color: white !important;
     background-color: #292929;
 }

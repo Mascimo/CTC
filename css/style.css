@@ -82,7 +82,7 @@ body, ul{
     background-size: cover;
 
     justify-content: center;
-    
+
 }
 
 .informationContainer01{
@@ -122,7 +122,7 @@ body, ul{
 .formulario01Conten{
     display: flex;
     align-items: center;
-    
+
     width: 1000px;
     background-color: black;
     padding: 50px;
@@ -220,7 +220,7 @@ body, ul{
 .procurarContent{
     /* display: flex; */
     /* flex-direction: column; */
-    width: 1150px;    
+    width: 1150px;
 }
 
 .procurarConteiner{
@@ -233,11 +233,11 @@ body, ul{
     height: 220px;
 
     margin: 15px;
-    
+
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
-    
+
     box-shadow: 0px 0px 10px #666;
 }
 
@@ -319,6 +319,7 @@ color: white;
 .bannerTratamentoContentButton{
     display: inline-block;
     background-color: rgb(247, 145, 29);
+    color: white;
     margin-top: 30px;
     padding: 10px;
     padding-left: 20px;
@@ -373,16 +374,16 @@ color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
     width: 300px;
     height: 450px;
-    
+
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px #666;
     color: #000000;
 
-    margin: 15px;   
+    margin: 15px;
 }
 
 .carouselContente:hover{
@@ -403,7 +404,7 @@ color: white;
 }
 
 .carouselButton:hover{
-    background-color: rgb(247, 145, 29);    
+    background-color: rgb(247, 145, 29);
 
 }
 
@@ -423,7 +424,7 @@ color: white;
 
     margin-top: 50px;
     margin-bottom: 30px;
-} 
+}
 
 .divTitleP01{
     margin: 0px;
@@ -437,12 +438,74 @@ color: white;
 }
 
 
+.comparison{
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+    margin: 0px;
+    padding: 0px;
+}
+
+.comparisonCarousel{
+    width: 95%;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.comparisonContent{
+   width: 50%;
+   height: 430px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.comparisonBackground01{
+    background-image: url(../img/RGJ31.png);
+}
+
+.comparisonBackground02{
+    background-image: url(../img/ARP39.png);
+}
+
+.comparisonBackground03{
+    background-image: url(../img/DEG42.png);
+}
+
+.comparisonBackground04{
+    background-image: url(../img/ASV35.png);
+}
+
+.comparisonText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 430px;
+    background-color: transparent;
+    color: transparent;
+}
+
+.comparisonText:hover{
+    background-color: rgba(41, 41, 41, 0.6);
+    color: white;
+}
+
+.comparisonText p{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
 .comments{
-    
     display: flex;
     justify-content: center;
     width: 100%;
-    
+
     background-image: url(../icon/Depoimentos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,7 +524,7 @@ color: white;
 .commentsContent{
     display: flex;
     text-align: center;
-} 
+}
 
 .commentsContentImg{
     display: flex;
@@ -499,7 +562,7 @@ margin: 15px;
 .clinicoImg{
     /* width: 200px; */
     /* height: 400px; */
-    
+
 }
 
 .clinicoContente{
@@ -515,7 +578,7 @@ margin: 15px;
     left: 25px;
     background-color: white;
     box-shadow: 0px 0px 10px #666;
-    
+
 }
 
 .clinicoContente:hover{
@@ -560,7 +623,7 @@ margin: 15px;
     width: 50%;
     color: white;
     background-color: rgb(44, 44, 44);
-    
+
     box-sizing: border-box;
     padding-top: 10px;
     padding-left: 50px;
@@ -571,7 +634,7 @@ margin: 15px;
     font-weight:900;
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 .unidadesContent p {
@@ -628,7 +691,7 @@ margin: 15px;
     width: 50%;
     height: 200px;
     background-color: rgb(221, 220, 220);
-} 
+}
 
 .formulario02Contente02Div02{
     display: flex;
@@ -638,17 +701,6 @@ margin: 15px;
     width: 50%;
     height: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -690,7 +742,7 @@ footer{
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -710,7 +762,7 @@ footer{
     .formularioTitle{
         width: 250px;
     }
-    
+
     .formularioTitle h2{
         width: 230px;
         font-size: 20px;
@@ -719,7 +771,7 @@ footer{
     .formulario01Form{
         width: 450px;
     }
-    
+
     .formulario01Style{
         padding: 10px;
         width: 210px;
@@ -727,14 +779,14 @@ footer{
 
 
     .procurarContent{
-        width: 850px;    
+        width: 850px;
     }
-    
+
 
     .formulario02Email{
         width: 435px;
     }
-    
+
     .formulario01Button{
         width: 435px;
         padding: 7px;
@@ -746,6 +798,11 @@ footer{
 
     .bannerTratamentoContent.child02{
         height: 600px;
+    }
+
+
+    .comparisonCarousel{
+        width: 80%;
     }
 }
 
@@ -819,13 +876,13 @@ footer{
     .informationContainer01{
         width: 90%;
     }
-    
+
     .informationTitle{
         font-size: 35px;
     }
 
     .procurarContent{
-        width: 550px;    
+        width: 550px;
     }
 
     .bannerTratamentoContent.child02{
@@ -833,6 +890,10 @@ footer{
         padding-right: 20px;
     }
 
+    .comparisonCarousel{
+        width: 90%;
+        padding: 0px;
+    }
 
     .unidadesContent{
         padding-left: 20px;
@@ -842,10 +903,11 @@ footer{
     .formulario02Contente02Div01{
         width: 45%;
     }
+
 }
 
 @media screen and (max-width: 768px){
-    
+
     .information{
         flex-direction: column;
     }
@@ -857,7 +919,7 @@ footer{
     .informationContainer01{
         width: 450px;
     }
-    
+
     .informationTitle{
         font-size: 45px;
     }
@@ -869,7 +931,7 @@ footer{
 
     .formulario01{
         bottom: 120px;
-    } 
+    }
 
     .formulario01Conten{
         flex-direction: column;
@@ -882,21 +944,21 @@ footer{
         width: 100%;
         margin-bottom: 20px;
     }
-    
+
     .formulario01Form{
         width: 100%;
     }
-    
+
     .formulario01Style{
         width: 49%;
         margin: 0px;
         margin-bottom: 10px;
     }
-    
+
     .formulario02Email{
         width: 99%;
     }
-    
+
     .formulario01Button{
         width: 98%;
     }
@@ -909,7 +971,7 @@ footer{
         display: grid;
         grid-template: auto auto auto / auto;
     }
-    
+
     .bannerTratamentoContent.child01{
         height: 300px;
     }
@@ -923,6 +985,12 @@ footer{
 
     .bannerTratamentoContent.child03{
         height: 300px;
+    }
+
+
+    .comparisonText{
+        display: none;
+    
     }
 
 
@@ -941,13 +1009,13 @@ footer{
     .carouselImg{
         width: 200px;
     }
-   
+
 
     .commentsConteiner{
         padding: 20px;
         width: 80%;
     }
-    
+
 
     .clinicoContente:hover{
         box-shadow: 0px 0px 10px #666;
@@ -989,7 +1057,7 @@ footer{
 
     .formulario02Contente01Div02{
         width: 100%;
-        padding: 20px;    
+        padding: 20px;
         box-sizing: border-box;
     }
 
@@ -1005,30 +1073,34 @@ footer{
 
 @media screen and (max-width: 600px){
     .procurarContent{
-        width: 270px;    
+        width: 270px;
     }
 
     .procurarContentDiv{
         width: 240px;
+        height: 240px;
     }
 
     .procurarContentDiv:hover{
         box-shadow: 0px 0px 10px #666;
     }
+    .comparisonContent{
+        height: 340px;  
+     }
 }
 
 @media screen and (max-width: 480px){
 
     .informationDecoration{
         height: 450px;
-        align-items: center; 
+        align-items: center;
     }
 
     .informationContainer01{
         width: 90%;
         padding-top: 0px;
     }
-    
+
     .informationTitle{
         font-size: 35px;
     }
@@ -1036,7 +1108,7 @@ footer{
 
     .formulario01{
         bottom: 300px;
-    } 
+    }
 
     .procurar{
         margin-top: -300px;
@@ -1059,7 +1131,7 @@ footer{
     .carouselContente{
         width: 250px;
         height: 450px;
-        margin: 10px; 
+        margin: 10px;
         box-sizing: border-box;
         padding-top: 10px;
         box-shadow: 0px 0px 7px #666;
@@ -1067,6 +1139,14 @@ footer{
 
     .carouselImg{
         width: 230px;
+    }
+
+    .comparisonCarousel{
+        width: 80%;
+    }
+
+    .comparisonContent{
+        height: 250px;  
     }
 
 
@@ -1106,4 +1186,5 @@ footer{
     footer{
         padding: 20px;
     }
+
 }
