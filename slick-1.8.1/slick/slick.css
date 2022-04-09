@@ -65,11 +65,11 @@
 
 
 
-.slick-prev:before {
+.slick-prev:before, .comparisonCarousel .slick-next:before{
   color: #292929 !important;
   background-color: #ffffff;
 }
-.slick-next:before {
+.slick-next:before, .comparisonCarousel .slick-next:before{
   color: #292929 !important;
   background-color: #ffffff;
 }
@@ -80,12 +80,12 @@
 
 
 
-.commentsConteiner .slick-prev:before, .comparisonCarousel .slick-prev:before{
+.commentsConteiner .slick-prev:before{
     color: white !important;
     background-color: #292929;
 }
 
-.commentsConteiner .slick-next:before, .comparisonCarousel .slick-next:before{
+.commentsConteiner .slick-next:before{
     color: white !important;
     background-color: #292929;
 }
