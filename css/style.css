@@ -29,7 +29,6 @@ body, ul{
     font-size: 18px;
 }
 
-/* retirar */
 #menu a:hover{
   color: rgb(194, 114, 24);
 }
@@ -1166,10 +1165,18 @@ footer{
 
 @media screen and (max-width: 480px){
 
+
+
+
+
+
+
+
+
     .informationDecoration{
         /* height: 450px; */
 
-        height: 300px;
+        height: 200px;
         align-items: center;
     }
 
@@ -1188,7 +1195,7 @@ footer{
 
 
 
-
+ 
 
 
 
@@ -1203,10 +1210,12 @@ footer{
     .informationTitle{
         /* font-size: 35px; */
 
-        font-size: 25px;
+        font-size: 20px;
     }
 
-
+    .informationText{
+        font-size: 18px;
+    }
     .formulario01{
         bottom: 300px;
     }
