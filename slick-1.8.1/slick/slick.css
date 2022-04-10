@@ -60,11 +60,6 @@
 }
 
 
-
-
-
-
-
 .slick-prev:before, .comparisonCarousel .slick-next:before{
   color: #292929 !important;
   background-color: #ffffff;
@@ -73,12 +68,6 @@
   color: #292929 !important;
   background-color: #ffffff;
 }
-
-
-
-
-
-
 
 .commentsConteiner .slick-prev:before{
     color: white !important;
@@ -89,17 +78,6 @@
     color: white !important;
     background-color: #292929;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .slick-track:before,

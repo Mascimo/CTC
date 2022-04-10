@@ -1,4 +1,4 @@
-$('.procurarContent').slick({
+$('.searchContent').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -28,8 +28,6 @@ $('.procurarContent').slick({
 });
 
 
-// REDUZIR
-
 $('.carousel, .carousel03').slick({
     infinite: true,
     slidesToShow: 3,
@@ -53,23 +51,11 @@ $('.carousel, .carousel03').slick({
 });
 
 
-
-
-
-
-
-
-
-
-
 $('.commentsConteiner').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-
-
-
 
 
   $('.comparisonCarousel').slick({
@@ -86,22 +72,6 @@ $('.commentsConteiner').slick({
         },
     ]
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const menuMobile = document.getElementById("btn-mobile");
